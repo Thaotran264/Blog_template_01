@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal Blog Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">My Blog</a>
+        <div class="menuToggle">
+            <ion-icon class="menuToggle-icon" name="menu-outline"></ion-icon>
+            <ion-icon class="menuToggle-icon" name="close-outline"></ion-icon>
+        </div>
+    </header>
+    <ul class="nav">
+        <li class="nav-item">
+            <a href="#" class="nav-link" onclick="toggleMenu()">Home</a>
+        </li>
+        <li class="nav-item">
+            <a href="#about" class="nav-link" onclick="toggleMenu()">About</a>
+        </li><li class="nav-item">
+            <a href="#post" class="nav-link" onclick="toggleMenu()">Post</a>
+        </li><li class="nav-item">
+            <a href="#contact" class="nav-link" onclick="toggleMenu()">Contact</a>
+        </li>
+    </ul>
+
+
+    <!-- Baner -->
+    <section class="banner" id="home">
+        <img src="./image/photographer.jpeg" alt="" class="cover">
+        <div class="content8x">
+            <h2>The soul of the work</h2>
+            <h4>A simple blog website</h4>
+            <a href="#" class="btn">About me</a>
+        </div>
+    </section>
+
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="title">
+            <h2>About us</h2>
+            <div class="content8x">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae doloribus possimus veritatis alias totam officia, autem non voluptas cupiditate dolor! Id corrupti quaerat praesentium saepe aliquam reprehenderit debitis, voluptatem necessitatibus laboriosam quam, magni quidem. Porro quas accusantium inventore ducimus animi illum esse aliquid odio quae, praesentium iusto magnam quibusdam quam tempore dicta necessitatibus totam, rerum quod doloremque hic facilis fugit deserunt dolor. Mollitia, iusto. Adipisci molestias aliquid ex voluptates consectetur neque officiis officia cum reiciendis nam modi perspiciatis pariatur odio harum rerum impedit perferendis aperiam distinctio sed, nesciunt quia voluptatem optio placeat. Quasi porro molestias at atque nobis expedita molestiae sed aut distinctio officia numquam recusandae quam facilis, dolores error iusto obcaecati eaque cum corrupti. Impedit aliquid, repellendus soluta deserunt ratione accusantium modi, ducimus natus quibusdam corrupti quia adipisci incidunt suscipit alias harum cupiditate recusandae eveniet voluptatum rerum consectetur hic libero. Eveniet recusandae iure quis reiciendis sequi laudantium incidunt, natus iusto optio ratione accusantium, sit accusamus corrupti odit ut aperiam doloribus ducimus? Aspernatur recusandae pariatur excepturi cumque hic explicabo illo, accusantium quo temporibus et tempora at numquam quas dolorem in iste,<br><br> facilis error eos qui sequi, mollitia officia? Facere quas dicta quibusdam quaerat dolorum nihil reiciendis culpa officia at optio nisi repudiandae corrupti expedita necessitatibus placeat doloremque illo modi porro illum earum magnam, obcaecati quo. Nostrum quaerat dolorem pariatur iste incidunt illo culpa soluta, eveniet, asperiores veniam unde harum officiis amet suscipit ipsam aut! Nulla tempore commodi optio dolore aliquam earum distinctio doloribus, architecto error. Quibusdam voluptatibus eius animi at.</p>
+                    
+                </div>
+                <div class="content">
+                    <div class="img8x">
+                        <img src="./image/girl.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Lates Blog Post -->
+    <section class="post" id="post">
+        <div class="post-title">
+            <h2>Latest Post</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, sequi? Maiores ipsum fuga dolores quibusdam quia veniam repudiandae quidem qui!</p>
+            
+        </div>
+        <div class="post-content">
+            <div class="post-column">
+                <div class="post-item">
+                    <div class="post-image  extraHeight ">
+                        <img src="image/falls2.jpeg" alt="" class="">
+                    </div>
+                    <div class="post-text">
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nam voluptatibus aut, eligendi voluptate non dolor provident, quasi odio hic delectus sint qui debitis quidem!</h3>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+                <!-- <div class="postBox">
+                    <div class="img8x">
+                        <img src="image/man_bench.jpeg" alt="" class="cover">
+                    </div>
+                    <div class="text8x">
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nam voluptatibus aut, eligendi voluptate non dolor provident, quasi odio hic delectus sint qui debitis quidem!</h3>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+                <div class="postBox">
+                    <div class="img8x extraHeight">
+                        <img src="image/girl_train.jpeg" alt="" class="cover">
+                    </div>
+                    <div class="text8x ">
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nam voluptatibus aut, eligendi voluptate non dolor provident, quasi odio hic delectus sint qui debitis quidem!</h3>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div> -->
+            </div>
+            <div class="post-column">
+                <div class="post-item">
+                    <div class="post-image">
+                        <img src="image/falls2.jpeg" alt="" class="">
+                    </div>
+                    <div class="post-text">
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nam voluptatibus aut, eligendi voluptate non dolor provident, quasi odio hic delectus sint qui debitis quidem!</h3>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+                <!-- <div class="postBox">
+                    <div class="img8x">
+                        <img src="image/man_bench.jpeg" alt="" class="cover">
+                    </div>
+                    <div class="text8x">
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nam voluptatibus aut, eligendi voluptate non dolor provident, quasi odio hic delectus sint qui debitis quidem!</h3>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+                <div class="postBox">
+                    <div class="img8x extraHeight">
+                        <img src="image/girl_train.jpeg" alt="" class="cover">
+                    </div>
+                    <div class="text8x ">
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nam voluptatibus aut, eligendi voluptate non dolor provident, quasi odio hic delectus sint qui debitis quidem!</h3>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div> -->
+            </div>
+            <div class="post-column">
+                <div class="post-item">
+                    <div class="post-image">
+                        <img src="image/falls2.jpeg" alt="" class="">
+                    </div>
+                    <div class="post-text">
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nam voluptatibus aut, eligendi voluptate non dolor provident, quasi odio hic delectus sint qui debitis quidem!</h3>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+                <!-- <div class="postBox">
+                    <div class="img8x">
+                        <img src="image/man_bench.jpeg" alt="" class="cover">
+                    </div>
+                    <div class="text8x">
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nam voluptatibus aut, eligendi voluptate non dolor provident, quasi odio hic delectus sint qui debitis quidem!</h3>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+                <div class="postBox">
+                    <div class="img8x extraHeight">
+                        <img src="image/girl_train.jpeg" alt="" class="cover">
+                    </div>
+                    <div class="text8x ">
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nam voluptatibus aut, eligendi voluptate non dolor provident, quasi odio hic delectus sint qui debitis quidem!</h3>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div> -->
+            </div>
+            <!-- <div class="postColumn">
+                <div class="postBox">
+                    <div class="img8x">
+                        <img src="image/girl.jpeg" alt="" class="cover">
+                    </div>
+                    <div class="text8x">
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nam voluptatibus aut, eligendi voluptate non dolor provident, quasi odio hic delectus sint qui debitis quidem!</h3>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+                <div class="postBox">
+                    <div class="img8x extraHeight">
+                        <img src="image/girl.jpeg" alt="" class="cover">
+                    </div>
+                    <div class="text8x">
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nam voluptatibus aut, eligendi voluptate non dolor provident, quasi odio hic delectus sint qui debitis quidem!</h3>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+                <div class="postBox">
+                    <div class="img8x">
+                        <img src="image/girl.jpeg" alt="" class="cover">
+                    </div>
+                    <div class="text8x">
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nam voluptatibus aut, eligendi voluptate non dolor provident, quasi odio hic delectus sint qui debitis quidem!</h3>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="postColumn">
+                <div class="postBox">
+                    <div class="img8x">
+                        <img src="image/girl.jpeg" alt="" class="cover">
+                    </div>
+                    <div class="text8x">
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nam voluptatibus aut, eligendi voluptate non dolor provident, quasi odio hic delectus sint qui debitis quidem!</h3>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+                <div class="postBox">
+                    <div class="img8x">
+                        <img src="image/girl.jpeg" alt="" class="cover">
+                    </div>
+                    <div class="text8x">
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nam voluptatibus aut, eligendi voluptate non dolor provident, quasi odio hic delectus sint qui debitis quidem!</h3>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+                <div class="postBox">
+                    <div class="img8x">
+                        <img src="image/girl.jpeg" alt="" class="cover">
+                    </div>
+                    <div class="text8x">
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nam voluptatibus aut, eligendi voluptate non dolor provident, quasi odio hic delectus sint qui debitis quidem!</h3>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    
+    
+    <div class="title">
+        <a href="#" class="btn mgt60">Load More</a>
+    </div>
+    </section>
+
+    <!-- Contact  -->
+
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2>Get in touch</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt qui dolores eaque aliquid similique nulla ad quidem, cum sequi eius. Temporibus nisi cupiditate aliquid? Laudantium.</p>
+        </div>
+        <div class="contactForm">
+            <div class="row">
+                <input type="text" name="" placeholder="First Name">
+                <input type="text" name="" placeholder="Last Name">
+            </div>
+            <div class="row">
+                <input type="text" name="" placeholder="Email Address">
+                <input type="text" name="" placeholder="Mobile No.">
+            </div>
+            <div class="row2">
+                <textarea name="" id="" ></textarea>
+               
+            </div>
+            <div class="row2">
+                 <input type="submit" value="send"
+                  class="btn">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#" class="logo">My Blog</a>
+        <ul class="footerMenu">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">About</a>
+            </li><li class="nav-item">
+                <a href="#" class="nav-link">Post</a>
+            </li><li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+            </li>
+        </ul>
+        <p>Copyright 1999-2021 by Refsnes Data. All Rights Reserved.</p>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+    const menuToggle = document.querySelector('.menuToggle');
+    const nav = document.querySelector('.nav');
+
+    menuToggle.onclick = function() {
+        nav.classList.toggle('active');
+       
+        menuToggle.classList.toggle('active');
+    }
+
+    window.addEventListener('scroll', function () {
+        const header = document.querySelector('header');
+        header.classList.toggle('sticky', window.scrollY > 0)
+    })
+
+
+    function toggleMenu(){
+        menuToggle.classList.remove('active');
+        nav.classList.remove('active');
+    }
+</script>
+</body>
+</html>
